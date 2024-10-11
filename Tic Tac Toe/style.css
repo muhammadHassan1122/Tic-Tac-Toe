@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #548687;
+    text-align: center;
+    cursor: pointer;
+}
+.container{
+    height: 70vmin;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    cursor: pointer;
+}
+.Tic-Tac-Toe-container{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5vmin;
+    cursor: pointer;
+}
+.Box{
+    cursor: pointer;
+    height: 18vmin;
+    width: 18vmin;
+    border: none;
+    border-radius: 1rem;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.4);
+    font-size: 8vmin;
+    background-color: #ffffc7;
+    color: #1035ac;
+}
+#Reset-game{
+    cursor: pointer;
+    padding: 1rem;
+    border: none;
+    font-size: 1rem;
+    font-weight: 500;
+    background-color: #191913;
+    color: #fff;
+    border-radius: 1rem;
+}
+#Play-again{
+    cursor: pointer;
+    padding: 1rem;
+    border: none;
+    font-size: 1rem;
+    font-weight: 500;
+    background-color: #191913;
+    color: #fff;
+    border-radius: 1rem;
+}
+p{
+    cursor: pointer;
+    color: #ffffc7;
+    font-size: 5vmin;
+}
+h1{
+    color: #ffffc7;
+    font-size: 5vmin;
+    transition-duration: 3s;
+    cursor: pointer;
+}
+h1:hover{
+    color: #fff;
+    font-size: 5vmin;
+}
+.msg-container{
+    cursor: pointer;
+    height: 100vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.hide{
+    display: none;
+}
